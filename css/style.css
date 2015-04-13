@@ -1,0 +1,21 @@
+a div.dashicons-allthecontent {
+    background-image: url(../images/logo-atc-wp-white.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    opacity: 0.6;
+
+}
+
+a:hover div.dashicons-allthecontent {
+    background-image: url(../images/logo-atc-wp.png)!important;
+    background-repeat:no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
+
+a.wp-menu-open div.dashicons-allthecontent {
+    background-image: url(../images/logo-atc-wp.png)!important;
+    background-repeat:no-repeat;
+    background-position: center center;
+    opacity: 1;
+}
