@@ -3,7 +3,7 @@ Contributors: allthecontent
 Tags: allthecontent, content, feeds, wires, fresh content, importer, import
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: http://www.allthecontent.com/wordpress-plugin
@@ -43,5 +43,8 @@ No FAQ yet
 No upgrade notice yet
 
 == Changelog ==
+= 0.1.1 (2015-04-14)
+* fix uninstall
+* fix readme url
 = 0.1.0 (2015-02-03)
 * Initial release
