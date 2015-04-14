@@ -19,7 +19,7 @@ AllTheContent is an importer for ATCML format. Get all your content imported int
 * Automatically publish new imported content or let it as draft for validation
 
 Documentation can be found on the plugin page
-http://www.allthecontent.com/fr/wordpress-plugin
+http://www.allthecontent.com/wordpress-plugin
 
 == Installation ==
 1. Unzip the plugin archive
@@ -28,11 +28,11 @@ http://www.allthecontent.com/fr/wordpress-plugin
 4. Configure the plugin by going to the `AllTheContent` menu item that appears in your dashboard menu.
 
 Full Installation process can be found on the plugin page:
-http://www.allthecontent.com/fr/wordpress-plugin
+http://www.allthecontent.com/wordpress-plugin
 
 == Screenshots ==
 
-http://www.allthecontent.com/fr/wordpress-plugin
+http://www.allthecontent.com/wordpress-plugin
 
 == Frequently Asked Questions ==
 

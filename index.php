@@ -128,7 +128,7 @@ function allthecontent_uninstall() {
     ATCDB::uninstall();
 
     // remove all options
-    foreach (self::$OPTIONS as $option)
+    foreach (ATCPlugin::$OPTIONS as $option)
         delete_option($option);
 }
 
