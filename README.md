@@ -2,10 +2,7 @@
 
 This plugin is the first version of our importer for Wordpress.
 
-# more information readme.txt
-
-## TODO
-### Tester l'envoit d'email en cas d'erreur
+Find more inforamtions in the file " readme.txt "
 
 ## Git SVN
 
@@ -15,10 +12,34 @@ pour la documentation sur comment utiliser GIT SVN, voir ici:
 
 https://gist.github.com/vbuzzano/2c13602fe116212ed179
 
-## Git submodules
+## Setup workspace
+### Clone svn repository with Git
 
-### How to update submodule ATCML Toolkit
-    git submodule foreach git pull origin master
+    > git svn clone --no-minimize-url -s -r1130824 http://plugins.svn.wordpress.org/allthecontent/
 
-### more help for git submodule
-https://chrisjean.com/2009/04/20/git-submodules-adding-using-removing-and-updating/
+    > cd allthecontent/
+
+    > git svn fetch
+
+    > git svn rebase
+
+### Add Git Repository
+
+Append this line to .git/config
+
+    [remote "origin"]
+    	url = https://bitbucket.org/atcfm-dev/allthecontent-wp-plugin.git
+    	fetch = +refs/heads/*:refs/remotes/origin/*
+    [branch "master"]
+    	remote = origin
+    	merge = refs/heads/master
+
+### Pull source
+
+    > git pull origin master
+
+And then fix merge issues
+
+### Push change to SVN
+
+    > git svn dcommit
