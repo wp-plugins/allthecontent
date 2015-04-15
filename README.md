@@ -47,9 +47,20 @@ And then fix merge issues
 ### Create a new version
 
  * update the "stable" version number in the readme.txt file
+
+    > nano trunk/readme.txt
+
+ * update the version number in the plugin's indexphp file, which I think is the version number that displays
+
+    > nano trunk/index.php
+
  * make a new tagged release in SVN with that version number
- * update the version number in the plugin's main .php file, which I think is the version number that displays
- *
+
+    > svn cp trunk tags/0.1.1
+
+ * commit change
+
+    > svn ci -m "tagging version 0.1.1"
 
 ### Create a tag
     > git svn tag x.x.x
