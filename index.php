@@ -4,9 +4,9 @@
  * Plugin Name: AllTheContent
  * Plugin URI: http://www.allthecontent.com/
  * Description: AllTheContent for wordpress is an importer for ATCML format. Get all your content imported into your Wordpress automatically.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: AllTheContent, Vincent Buzzano
- * Author URI: http://www.allthecontent.com/
+ * Author URI: http://www.allthecontent.com
  * License: GPL2
 */
 

@@ -43,7 +43,7 @@ No FAQ yet
 No upgrade notice yet
 
 == Changelog ==
-= 0.1.1 (2015-04-14)
+= 0.1.1 (2015-04-15)
 * fix uninstall
 * fix readme url
 = 0.1.0 (2015-02-03)
