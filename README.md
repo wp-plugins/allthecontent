@@ -2,7 +2,7 @@
 
 This plugin is the first version of our importer for Wordpress.
 
-Find more inforamtions in the file " readme.txt "
+Find more informations in the file " readme.txt "
 
 ## Git SVN
 
@@ -43,3 +43,13 @@ And then fix merge issues
 ### Push change to SVN
 
     > git svn dcommit
+
+### Create a new version
+
+ * update the "stable" version number in the readme.txt file
+ * make a new tagged release in SVN with that version number
+ * update the version number in the plugin's main .php file, which I think is the version number that displays
+ *
+
+### Create a tag
+    > git svn tag x.x.x
